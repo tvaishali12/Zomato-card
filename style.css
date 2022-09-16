@@ -1,0 +1,147 @@
+body{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Okra, Helvetica, sans-serif;
+}
+#products{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.container:hover{
+    border: 1px solid rgb(215, 208, 208);
+   
+}
+.img{
+    height: 250px;
+    position: relative;
+}
+.binary{
+    position: absolute;
+    bottom: 2px;
+}
+.min{
+    position: absolute;
+    left: 311px;
+    bottom: 2px;
+}
+.para-1{
+    
+    background: rgb(217, 38, 98);
+    color: rgb(255, 255, 255);
+    padding: 3px;
+   
+    font-size: 15px;
+   
+    border-radius: 3px;
+   
+}
+.para-2{
+    background: blue;
+   color: rgb(255, 255, 255);
+   padding: 3px;
+  
+    font-size: 15px;
+   
+    border-radius: 3px;
+}
+.para-3{
+  
+   padding: 3px;
+   border-radius: 4px;
+   font-size: 14px;
+   background: rgba(255, 255, 255, 0.8);
+   font-weight: 500;
+  color: rgb(54, 54, 54);
+ }
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.bottom{
+display: flex;
+flex-direction:column;
+}
+.bottom-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.bottom-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    font-size: 14px;
+    color: #8d8686;
+
+}
+h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #141416;
+    margin-top: 17px;
+}
+.rating{
+
+    background: green;
+    padding:  0px 9px;
+    margin-top: 14px;
+    display: flex;
+align-items: center;
+
+    font-size: 13px;
+    font-weight: 600;
+    color: aliceblue;
+    border: none;
+    width: 52px;
+    height: 21px;
+    border-radius: 7px;
+
+}
+.svg{
+    height: 10px;
+    fill: aliceblue;
+    width: 17px;
+}
+.last{
+    display: flex;
+   gap: 10px;
+}
+.icon{
+    height: 18px;
+}
+.para{
+    margin-top: -10px;
+}
+p{
+    font-size: 13px;
+    color: #8d8686;
+}
+.saftey{
+    height: 18px;
+    margin-left: 78px;
+    margin-top: 2px;
+   
+}
+hr{
+    width: 100%;
+    color: #f2e6e8;
+}
